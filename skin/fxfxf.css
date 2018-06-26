@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+
+body {background-color: #1e1e1e;} /* общий цвет фона */
+
+h1 {font-size: 48; color: #0000ef; font-family: arial;} /* изменение параметров заголовка 1 уровня */
+h2 {color: #191970; font-family: arial;} /* >> 2 уровня */
+h3 {color: #191970; font-family: arial;} /* >> 3 уровня */
+
+p {font-family: arial;} /* изменение шрифта внутри абзаца */
+
+a:link {color: #8b0000;} /* цвет непосещённой ссылки */
+a:visited {color: #800000;} /* цвет посещённой ссылки */
+a:hover {color: #b22222;} /* цвет при наведении курсора на ссылку */
+a:active {color: red;} /* цвет при нажатии на ссылку */
+
+table {border: 1px solid silver; border-radius: 10px; background-color: #ffffff;} /* изменение основного вида таблиц */
+#userview {border: 0px; background-color: transparent;} /* изменения для таблицы, содержащей форму входа пользователя и ссылки на аккаунт и файлы вошедшего пользователя */
+#tb {border: 0px; border-radius: 0px; background-color: #dfdfdf;} /* изменения основного вида таблицы для главной таблицы оформления */
