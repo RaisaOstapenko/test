@@ -1,4 +1,5 @@
 <?php session_start();
+//some code
 include_once("connect.php");
 if(isset($_POST['auth']))
 {
